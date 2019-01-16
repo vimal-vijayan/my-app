@@ -11,5 +11,10 @@ pipeline {
         echo 'Build Test'
       }
     }
+    stage('Final') {
+      steps {
+        sh 'echo "success"'
+      }
+    }
   }
 }
