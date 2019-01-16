@@ -16,5 +16,10 @@ pipeline {
         sh 'echo "success"'
       }
     }
+    stage('one-more') {
+      steps {
+        echo 'testing braching'
+      }
+    }
   }
 }
