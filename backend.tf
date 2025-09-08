@@ -6,14 +6,14 @@ terraform {
     }
   }
 
-#   cloud {
-#     hostname = "essity.scalr.io"
-    # organization = "cet-launchpad"
+  cloud {
+    hostname = "essity.scalr.io"
+    organization = "cet-launchpad"
 
     # workspaces {
     #   name = "demo-workspace-1"
     # }
-#   }
+  }
 }
 
 provider "random" {
