@@ -8,7 +8,7 @@ terraform {
 
   cloud {
     hostname = "essity.scalr.io"
-    organization = "cet-launchpad"
+    # organization = "cet-launchpad"
 
     # workspaces {
     #   name = "demo-workspace-1"
